@@ -1,0 +1,9 @@
+<ul>
+<li style='padding:40px' *ngFor="#child of children"  pDraggable="dd" (onDragEnd)='onDragEnd($event,child)' (onDragStart)='onDragStart($event,child)'>
+  <div pDroppable="dd" (click)='toggle(child)' (onDrop)='onDrop($event,child)' style='border:1px solid black'> {{child.text}}</div>
+  <div *ngIf="child.expanded">
+    <tree-node [children]='child.subNodes'></tree-node>
+  </div>
+</li>
+</ul>
+

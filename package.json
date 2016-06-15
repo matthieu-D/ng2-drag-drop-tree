@@ -1,0 +1,26 @@
+{
+  "name": "ng2-drag-drop-tree",
+  "version": "1.0.0",
+  "build": "rm -rf lib && tsc -p src",
+  "description": "Drag and Drop nodes to play with",
+  "main": "ng2-drag-drop-tree.js",
+  "repository": {
+    "type": "git",
+    "url": "ng2-drag-drop-tree"
+  },
+  "scripts":{ "postinstall": "typings install"},
+  "keywords": [
+    "angular2",
+    "angular",
+    "drag",
+    "drop",
+    "tree"
+  ],
+  "typings": "./ng2-drag-drop-tree.d.ts",
+  "author": "Matthieu Drula",
+  "license": "MIT",
+  "dependencies": {
+    "primeng": "^1.0.0-beta.8",
+    "primeui": "^4.1.12"
+  }
+}
