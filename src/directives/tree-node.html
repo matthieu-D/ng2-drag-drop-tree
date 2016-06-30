@@ -1,6 +1,7 @@
 <ul>
 <li style='padding:40px' *ngFor="#child of children | nodeSearch"  pDraggable="dd" (onDragEnd)='onDragEnd($event,child)' (onDragStart)='onDragStart($event,child)'>
-  <div pDroppable="dd" (click)='toggle(child)' (onDrop)='onDrop($event,child)' style='border:1px solid black'> {{child.text}}
+  <div pDroppable="dd" (click)='toggle(child)' (onDrop)='onDrop($event,child)' style='border:1px solid black'>
+    <editable-text [node]="child"></editable-text>
     <span (click)='deleteNode(child)'>X</span>
   </div>
   <div *ngIf="child.expanded">

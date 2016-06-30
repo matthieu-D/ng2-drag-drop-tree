@@ -2,10 +2,11 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 import {Draggable,Droppable} from 'primeng/primeng';
 import {TreeManager} from '../services/tree-manager';
 import {NodeSearch} from '../pipes/node-search';
+import {XEditableText} from '../ng2-xeditable-text/ng2-xeditable-text.directive';
 
 @Component({
   selector: 'tree-node',
-  directives: [Draggable,Droppable, TreeNode],
+  directives: [Draggable,Droppable, TreeNode, XEditableText],
   template: require('./tree-node.html'),
   pipes: [NodeSearch]
 })
@@ -15,6 +16,7 @@ export class TreeNode{
   @Output() askedChildDeletion = new EventEmitter();
   expanded:Boolean;
   constructor(private treeManager:TreeManager) {}
+
 
   onDragStart(event,child){
     this.treeManager.setSelectedNode(child);
