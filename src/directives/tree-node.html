@@ -3,6 +3,7 @@
   <div pDroppable="dd" (click)='toggle(child)' (onDrop)='onDrop($event,child)' style='border:1px solid black'>
     <editable-text [node]="child"></editable-text>
     <span (click)='deleteNode(child)'>X</span>
+    <span (click)='addNewNode(child)'>+</span>
   </div>
   <div *ngIf="child.expanded">
     <tree-node [children]='child.subNodes'></tree-node>
