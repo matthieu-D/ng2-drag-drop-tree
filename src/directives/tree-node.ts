@@ -7,7 +7,7 @@ import {XEditableText} from '../ng2-xeditable-text.directive';
 @Component({
   selector: 'tree-node',
   directives: [Draggable,Droppable, TreeNode, XEditableText],
-  templateUrl: './tree-node.html',
+  template: require('./tree-node.html'),
   pipes: [NodeSearch]
 })
 
