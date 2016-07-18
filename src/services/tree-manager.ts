@@ -22,6 +22,10 @@ export class TreeManager{
      return this.hasDropped;
    }
 
+   getNewNode(){
+     return {text:'new node', subNodes:[],expanded:false};
+   }
+
    setHasDropped(hasDropped){
      this.hasDropped = hasDropped;
    }
