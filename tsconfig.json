@@ -5,8 +5,7 @@
     "experimentalDecorators": true,
     "target": "es6",
     "module": "commonjs",
-    "removeComments": true,
-    "sourceMap": true
+    "removeComments": true
   },
     "files": [
         "ng2-drag-drop-tree.ts"
