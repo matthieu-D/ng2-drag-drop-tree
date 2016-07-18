@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
+    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "declaration": true
+    "removeComments": true,
+    "sourceMap": true
   },
     "files": [
         "ng2-drag-drop-tree.ts"
