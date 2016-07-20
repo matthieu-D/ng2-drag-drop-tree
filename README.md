@@ -5,3 +5,4 @@ What needs to be done?<br>
 -Allow custom CSS<br>
 -Add better icons and CSS<br>
 -Allow actions on multiple nodes
+Demo is available here : https://github.com/matthieu-D/ng2-drag-drop-tree-demo
