@@ -1,4 +1,5 @@
 # ng2-drag-drop-tree
+npm i ng2-drag-drop-tree
 What needs to be done?<br>
 -Fork primeng's drag drop to stop propagation <br>
 -Allow custom CSS<br>
