@@ -1,0 +1,20 @@
+ul {
+  list-style: none;
+  width: 400px;
+}
+
+.tree-node {
+  padding: 10px;
+  border: 1px solid #dae2ea;
+  background: #f8faff;
+  color: #7c9eb2;
+  margin: 10px;
+}
+
+.fa-plus-square {
+  color:green;
+}
+
+.fa-minus-circle {
+  color:red;
+}
