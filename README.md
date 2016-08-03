@@ -7,4 +7,4 @@ What needs to be done?<br>
 -Add better icons and CSS<br>
 -Allow actions on multiple nodes
 Demo is available here : https://github.com/matthieu-D/ng2-drag-drop-tree-demo
-If you are awesome and feel like recreating the ng-filter from AngularJS, that would be great since at the moment filter only filter on the first level instead of recursively.
+If you are awesome and feel like recreating the ng-filter from AngularJS, that would be great, at the moment ng2-filter only filters on the first level instead of recursively.
