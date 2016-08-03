@@ -2,7 +2,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 import {Draggable,Droppable} from 'primeng/primeng';
 import {TreeManager} from '../services/tree-manager';
 import {NodeSearch} from '../pipes/node-search';
-import {XEditableText} from '../ng2-xeditable-text/ng2-xeditable-text.directive';
+import {XEditableText} from '../ng2-xeditable-text.directive';
 
 @Component({
   selector: 'tree-node',
