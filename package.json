@@ -1,6 +1,6 @@
 {
   "name": "ng2-drag-drop-tree",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "build": "rm -rf lib && tsc -p src",
   "description": "Drag and Drop nodes to play with",
   "main": "ng2-drag-drop-tree.js",
