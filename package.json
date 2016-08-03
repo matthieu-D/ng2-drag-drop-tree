@@ -29,6 +29,8 @@
     "@angular/platform-browser-dynamic": "2.0.0-rc.4",
     "@angular/router": "3.0.0-beta.2",
     "font-awesome-webpack": "0.0.4",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.1.0",
     "primeng": "git://github.com/matthieu-D/primeng.git",
     "primeui": "^4.1.12",
     "rxjs": "^5.0.0-beta.10",

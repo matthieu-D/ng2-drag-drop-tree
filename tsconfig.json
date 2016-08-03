@@ -8,6 +8,7 @@
     "removeComments": true
   },
     "files": [
+	 "typings/index.d.ts",
         "ng2-drag-drop-tree.ts"
     ],
     "exclude": [

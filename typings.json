@@ -1,0 +1,9 @@
+{
+  "globalDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20160704162008",
+    "require": "registry:dt/require#2.1.20+20160316155526"
+  },
+  "ambientDependencies": {
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#77b1b1709315b03b9b1b67c589d599bebeeef2ee"
+  }
+}
